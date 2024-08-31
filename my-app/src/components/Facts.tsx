@@ -1,4 +1,3 @@
-import React from 'react'
 import {Users,Hospital, History} from 'lucide-react'
 const Facts = () => {
   return (
