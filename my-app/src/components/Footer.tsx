@@ -1,5 +1,4 @@
 import { Phone, Mail, Map, Twitter, Facebook, Linkedin } from "lucide-react";
-
 const Footer = () => {
   return (
     <footer className="bg-gray-900">

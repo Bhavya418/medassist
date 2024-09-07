@@ -5,7 +5,7 @@ import Navbar from './components/Navbar'
 import Carousel from './components/Carousel'
 import Hero from './components/Hero';
 import Facts from './components/Facts'
-import Platforms from './components/Platforms'
+// import Platforms from './components/Platforms'
 import Footer from './components/Footer'
 
 function App() {
