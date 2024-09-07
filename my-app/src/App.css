@@ -27,6 +27,11 @@
   animation: expand 1s ease-in-out forwards;
 }
 
+.underline {
+  text-decoration: underline;
+  text-decoration-thickness: 2px; /* Make the underline thicker */
+  text-underline-offset: 4px; /* Offset the underline from the text */
+}
 .image-stack {
   display: grid;
   grid-template-columns: repeat(12, 1fr);

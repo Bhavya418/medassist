@@ -1,3 +1,4 @@
+import { ChevronDown } from "lucide-react";
 
 const Navbar = () => {
   return (
@@ -13,9 +14,9 @@ const Navbar = () => {
         <div className="relative group">
           <a
             href="#"
-            className="flex items-center hover:text-purple-700 hover:border-b-2 hover:border-purple-700"
+            className="flex items-center justify-center hover:text-purple-700 hover:border-b-2 hover:border-purple-700"
           >
-            Solutions
+            Solutions <span ><ChevronDown size={20}/></span>
           </a>
           <div className="absolute hidden group-hover:block bg-white shadow-lg py-2 min-w-[200px]">
             <a href="#" className="block px-4 py-2 hover:bg-gray-100">
@@ -33,9 +34,9 @@ const Navbar = () => {
         <div className="relative group">
           <a
             href="#"
-            className="flex items-center hover:text-purple-700 hover:border-b-2 hover:border-purple-700"
+            className="flex items-center justify-center hover:text-purple-700 hover:border-b-2 hover:border-purple-700"
           >
-            Specialties <span className="ml-1">↓</span>
+            Specialties <span ><ChevronDown size={20}/></span>
           </a>
           <div className="absolute hidden group-hover:block bg-white shadow-lg py-2 min-w-[200px]">
             <a href="#" className="block px-4 py-2 hover:bg-gray-100">
