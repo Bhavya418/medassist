@@ -1,5 +1,3 @@
-
-
 const Platforms = () => {
   return (
     <div>
