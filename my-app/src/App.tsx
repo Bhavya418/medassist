@@ -7,6 +7,7 @@ import Hero from './components/Hero';
 import Facts from './components/Facts'
 // import Platforms from './components/Platforms'
 import Footer from './components/Footer'
+import Testimonials from './components/Testimonials';
 
 function App() {
 
@@ -20,8 +21,8 @@ function App() {
       <Carousel/>
       <Hero/>
       <Facts/>
-      {/* <Platforms/> */}
       </div>  
+      <Testimonials/>
       <Footer/>
     </>
   )
