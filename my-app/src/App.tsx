@@ -2,29 +2,26 @@
 import './App.css'
 import Top from './components/Top'
 import Navbar from './components/Navbar'
-import Carousel from './components/Carousel'
-import Hero from './components/Hero';
-import Facts from './components/Facts'
-// import Platforms from './components/Platforms'
-import Footer from './components/Footer'
-import Testimonials from './components/Testimonials';
+
+import { BrowserRouter,Routes,Route } from 'react-router-dom';
+import Home from './components/Home';
+import Contact from './components/Contact';
+import NoPage from './components/NoPage';
 
 function App() {
 
 
   return (
-    <>
-    <div className="w-full flex flex-col items-center justify-center mt-6">
+    <BrowserRouter>
+      <Routes>
 
-      <Top/>
-      <Navbar/>
-      <Carousel/>
-      <Hero/>
-      <Facts/>
-      </div>  
-      <Testimonials/>
-      <Footer/>
-    </>
+          <Route path="/" element={<Home />} />
+          <Route path="Home" element={<Home />} />
+          <Route path="Contact" element={<Contact />} />
+          <Route path="*" element={<NoPage />} />
+      </Routes>
+
+      </BrowserRouter>
   )
 }
 

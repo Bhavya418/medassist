@@ -8,10 +8,10 @@ const Top = () => {
             className="h-12"
           />
           <div className="flex flex-col">
-            <h1 className="text-5xl font-semibold text-blue-800 text-center">
+            <h1 className="text-5xl font-semibold text-blue-800 text-center font-montserrat">
               MEDASSIST HEALTHCARE SOLUTIONS
             </h1>
-            <p className="text-left text-2xl font-thin">
+            <p className="text-left text-2xl font-thin font-monsterrat">
               Revolutionizing RCM, Empowering Practices
             </p>
           </div>

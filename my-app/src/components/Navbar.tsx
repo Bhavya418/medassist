@@ -1,71 +1,72 @@
 import { ChevronDown } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <div className="w-full h-20 py-6 border-t border-b shadow z-10">
       <nav className="flex justify-center space-x-8 text-gray-600 font-medium">
-        <a
-          href="#"
+        <Link
+          to="/Home"
           className="relative hover:text-purple-700 hover:border-b-2 hover:border-purple-700"
         >
           Home
-        </a>
+        </Link>
 
         <div className="relative group">
-          <a
-            href="#"
+          <Link
+            to="#"
             className="flex items-center justify-center hover:text-purple-700 hover:border-b-2 hover:border-purple-700"
           >
             Solutions <span ><ChevronDown size={20}/></span>
-          </a>
+          </Link>
           <div className="absolute hidden group-hover:block bg-white shadow-lg py-2 min-w-[200px]">
-            <a href="#" className="block px-4 py-2 hover:bg-gray-100">
+            <Link to="#" className="block px-4 py-2 hover:bg-gray-100">
               End to end RCM solution
-            </a>
-            <a href="#" className="block px-4 py-2 hover:bg-gray-100">
+            </Link>
+            <Link to="#" className="block px-4 py-2 hover:bg-gray-100">
               Credentialing
-            </a>
-            <a href="#" className="block px-4 py-2 hover:bg-gray-100">
+            </Link>
+            <Link to="#" className="block px-4 py-2 hover:bg-gray-100">
               Consulting
-            </a>
+            </Link>
           </div>
         </div>
 
         <div className="relative group">
-          <a
-            href="#"
+          <Link
+            to="#"
             className="flex items-center justify-center hover:text-purple-700 hover:border-b-2 hover:border-purple-700"
           >
             Specialties <span ><ChevronDown size={20}/></span>
-          </a>
+          </Link>
           <div className="absolute hidden group-hover:block bg-white shadow-lg py-2 min-w-[200px]">
-            <a href="#" className="block px-4 py-2 hover:bg-gray-100">
+            <Link to="#" className="block px-4 py-2 hover:bg-gray-100">
               Cardiologist
-            </a>
-            <a href="#" className="block px-4 py-2 hover:bg-gray-100">
+            </Link>
+            <Link to="#" className="block px-4 py-2 hover:bg-gray-100">
               Pain Management
-            </a>
-            <a href="#" className="block px-4 py-2 hover:bg-gray-100">
+            </Link>
+            <Link to="#" className="block px-4 py-2 hover:bg-gray-100">
               Internists
-            </a>
-            <a href="#" className="block px-4 py-2 hover:bg-gray-100">
+            </Link>
+            <Link to="#" className="block px-4 py-2 hover:bg-gray-100">
               Oncology
-            </a>
+            </Link>
           </div>
         </div>
 
-        <a
-          href="#"
+        <Link
+          to="/Contact"
           className="relative hover:text-purple-700 hover:border-b-2 hover:border-purple-700"
         >
           Contact
-        </a>
-        <a
-          href="#"
+        </Link>
+        <Link
+          to="#"
           className="relative hover:text-purple-700 hover:border-b-2 hover:border-purple-700"
         >
           Careers
-        </a>
+        </Link>
       </nav>
     </div>
   );
